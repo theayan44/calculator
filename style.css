@@ -1,0 +1,57 @@
+.head{
+	background-color: #C6C6C6;
+    border: 4px ridge white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    width: 222px;
+    margin: 20px auto 30px auto;
+    height: 30px;
+    font-size: 30px;
+}
+
+input{
+	background-color: black; 
+	color: white;
+	margin: 3px;
+	font-size: 20px;
+	border:3px solid black; 
+	border-radius: 20px;
+	height: 50px;
+	width: 56px;
+}
+input:hover{
+	background-color: #C6C6C6; 
+	color: black;
+	border: 3px solid #C6C6C6; 
+	cursor: pointer;
+}
+.dbox{
+	background-color: #dddddd;
+	border: 8px ridge white;
+	border-radius: 10px; 
+	width: 240px;
+	color: black;
+	font-weight: bold;
+	text-align: right;
+	font-size: 22px;
+	margin-top: 10px;
+}
+.dbox:hover{
+	background-color: #dddddd;
+	border: 8px ridge white;
+	border-radius: 10px;
+}
+
+.round{
+	background-color:rgb(200, 100, 50); 
+	border: 3px outset rgb(200, 100, 50);
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#AC{
+	background-color: red;
+	border: 5px inset red;
+}

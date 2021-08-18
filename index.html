@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1 class="head">
+        Calculator
+    </h1>
+
+    <form name="Calculator">
+        <table border="0" align="center" class="round">
+            <tr>
+                <td>
+                    <input class="dbox" type="text" maxlength="30" size="30" name="Display" value="0">
+                </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="C" name="AC" onClick="Clear()" id="AC">
+                    <input type="button" value="<<" name="Er" onClick="Erase()">
+                    <input type="button" value="(" name="bropn" onClick="AddDigit('(')">
+                    <input type="button" value=")" name="brclos" onClick="AddDigit(')')">
+                </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="7" name="seven" onClick="AddDigit('7')">
+                    <input type="button" value="8" name="eight" onClick="AddDigit('8')">
+                    <input type="button" value="9" name="nine" onClick="AddDigit('9')">
+                    <input type="button" value="+" name="add" onClick="AddDigit('+')">
+                </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="4" name="four" onClick="AddDigit('4')">
+                    <input type="button" value="5" name="five" onClick="AddDigit('5')">
+                    <input type="button" value="6" name="six" onClick="AddDigit('6')">
+                    <input type="button" value="-" name="sub" onClick="AddDigit('-')">
+                </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="1" name="one" onClick="AddDigit('1')">
+                    <input type="button" value="2" name="two" onClick="AddDigit('2')">
+                    <input type="button" value="3" name="three" onClick="AddDigit('3')">
+                    <input type="button" value="   x   " name="pro" onclick="AddDigit('*')">
+                </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="0" name="zero" onClick="AddDigit('0')">
+                    <input type="button" value="." name="dot" onClick="AddDigit('.')">
+                    <input type="button" value="=" name="equal" onClick="Display.value=eval(Display.value)">
+                    <input type="button" value="/" name="div" onClick="AddDigit('/')">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
