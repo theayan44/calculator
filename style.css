@@ -1,3 +1,13 @@
+body{
+    background-color: #d2e8f7;
+}
+
+.main_container{
+    align-items: center;
+    background-color: yellow;
+    display: flex;
+}
+
 .head{
 	background-color: #C6C6C6;
     border: 4px ridge white;

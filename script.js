@@ -10,3 +10,4 @@ function Clear() {
 function Erase() {
     Calculator.Display.value = Calculator.Display.value.slice(0, Calculator.Display.value.length - 1);
 }
+ 
